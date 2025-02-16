@@ -84,7 +84,7 @@ export const Appbar = () => {
               </Link>
               <Link
                 className={style.nav_list_item + " small px-3"}
-                to="projects"
+                to="certificates"
                 spy={true}
                 smooth={true}
                 delay={10}
@@ -214,44 +214,7 @@ export const Appbar = () => {
             >
               <RiExternalLinkFill className="mx-1 fs-6" fontSize={21} /> Resume
             </a>
-            <div className={style.sm_icon_group}>
-              <div className={style.icon_container}>
-                <a
-                  href="https://www.facebook.com/Lan.Arch22/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <FaFacebookF fontSize={16} />
-                </a>
-              </div>
-              <div className={style.icon_container}>
-                <a
-                  href="https://www.instagram.com/thelancethe/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <FaInstagram fontSize={16} />
-                </a>
-              </div>
-              <div className={style.icon_container}>
-                <a
-                  href="https://twitter.com/thelancethe"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <FaTwitter fontSize={16} />
-                </a>
-              </div>
-              <div className={style.icon_container}>
-                <a
-                  href="https://github.com/SneakingSlayer"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <FaGithub fontSize={16} />
-                </a>
-              </div>
-            </div>
+            
           </nav>
         </Container>
       </Navbar>

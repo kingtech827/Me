@@ -16,7 +16,7 @@ export const Contact = () => {
       </video>
       <main className={"content " + style.contact_content}>
         <h1 className={style.title}>
-          <span className={style.highlight + " fs-4"}>05.</span> Contact
+          <span className={style.highlight + " fs-4"}>06.</span> Contact
         </h1>
         <Row>
           <Col md={6} className={style.contact_left}>

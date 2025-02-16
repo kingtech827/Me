@@ -5,7 +5,7 @@ import { myProjects } from "../../../fixtures";
 import { SectionContainer } from "../section/SectionContainer";
 export const Projects = () => {
   return (
-    <SectionContainer title="Projects" count="03" id="projects">
+    <SectionContainer title="Projects" count="04" id="projects">
       {myProjects.map((project, key) => (
         <Project
           key={key}
