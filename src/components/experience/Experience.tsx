@@ -27,7 +27,7 @@ export const Experience = () => {
               Previous Experience
             </h3>
             <p className="text-muted-le">
-            Throughout my career, I 've contributed to lots of complex enterprise systems, e-commerce platforms, and interactive data visualization tools. 
+            Throughout my career, I have contributed to lots of complex enterprise systems, e-commerce platforms, and interactive data visualization tools. 
             <br/><br/><br/>
             My background in full-stack development allows me to handle challenges from ideation to production, ensuring both user experience and technical requirements are met with precision.
             </p>
