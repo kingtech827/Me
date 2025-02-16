@@ -1,7 +1,7 @@
 import React from "react";
 import style from "./projects.module.css";
 import { Project } from "../project/Project";
-import { myProjects } from "../../../fixtures/index.";
+import { myProjects } from "../../../fixtures";
 import { SectionContainer } from "../section/SectionContainer";
 export const Projects = () => {
   return (

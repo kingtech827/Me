@@ -7,7 +7,9 @@ import { AccordionItem } from "../accordion/AccordionItem";
 import { AccordionBody } from "../accordion/AccordionBody";
 import { ExperienceItem } from "./ExperienceItem";
 import { Work } from "./types";
-import { works } from "../../../fixtures/index.";
+import { works } from "../../../fixtures";
+// import works from "../../../fixtures/works";
+
 export const Experience = () => {
   const [active, setActive] = React.useState<number>(0);
 
@@ -33,7 +35,7 @@ export const Experience = () => {
         </Col>
         <Col lg={6} md={12} className="pt-4 pt-lg-0">
           <Accordion>
-            {works.map((work: Work, key) => (
+            {works.map((work, key) => (
               <AccordionItem
                 key={key}
                 active={active === key}

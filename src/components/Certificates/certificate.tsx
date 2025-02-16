@@ -3,7 +3,7 @@ import style from "./projects.module.css";
 // import { Project } from "../project/Project";
 import { Items } from "./Items";
 
-import { certificate } from "../../../fixtures/index.";
+import { certificate } from "../../../fixtures";
 import { SectionContainer } from "../section/SectionContainer";
 export const Certificates = () => {
   return (

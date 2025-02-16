@@ -13,20 +13,20 @@ interface ExpItemProps {
 export const ExperienceItem = (props: ExpItemProps) => {
   const { work } = props;
   const handleDuration = () => {
-    const hasEnd = work.duration.end > 0;
-    const end = hasEnd
-      ? moment(work.duration.end).format("MMMM YYYY")
-      : "Present";
-    const start = moment(work.duration.start).format("MMMM YYYY");
-    const today = new Date();
-    const duration = Math.abs(
-      parseFloat(
-        moment(work.duration.start)
-          .diff(hasEnd ? work.duration.end : today, "months", true)
-          .toFixed(0)
-      )
-    );
-    // return `${start} to ${end} - ${duration} months`;
+    // const hasEnd = work.duration.end > 0;
+    // const end = hasEnd
+    //   ? moment(work.duration.end).format("MMMM YYYY")
+    //   : "Present";
+    // const start = moment(work.duration.start).format("MMMM YYYY");
+    // const today = new Date();
+    // const duration = Math.abs(
+    //   parseFloat(
+    //     moment(work.duration.start)
+    //       .diff(hasEnd ? work.duration.end : today, "months", true)
+    //       .toFixed(0)
+    //   )
+    // );
+    // // return `${start} to ${end} - ${duration} months`;
     return work.duration
   };
   return (
